@@ -1,0 +1,120 @@
+.home {
+
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+  
+  }
+  
+  
+  
+  .home-meeting-join {
+  
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: solid rgba(203, 186, 186, 0.277) 8px;
+    padding: 20px;
+  }
+  
+  
+  
+  input {
+    border: solid rgb(164, 164, 164) 3px;
+    border-radius: 6px;
+    height: 30px;
+    width: 500px;
+  }
+  
+  
+  
+  .home-url-builder {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    margin-top: 20px;
+    border: solid  rgba(203, 186, 186, 0.277) 8px;
+    width: 500px;
+    padding: 10px;
+    
+  
+  
+    
+  }
+  
+  .generateLink{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: solid #3eff37 3px ;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  textarea{
+    margin-top: 3%;
+    width: 50%;
+    border: solid rgba(182, 175, 175, 0.72);
+  }
+  .copyLink{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: solid rgb(50, 237, 37) 3px ;
+    background-color: transparent;
+    cursor: pointer;
+    
+  }
+  .copyLink:hover {
+    background-color:#3eff37;
+    transition: 0.5s;
+    
+  }
+  
+  .generateLink:hover{
+  
+    background-color:#3eff37;
+    transition: 0.4s;
+  }
+  
+  
+  
+  
+  .submitButton{
+    position: relative;
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid #3eff37;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+  
+    text-transform: uppercase;
+  }
+  
+  span{
+    background: #3eff37;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .submitButton:hover span{
+    width: 100%;
+  }
